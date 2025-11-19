@@ -1,0 +1,322 @@
+/* Remove default body border */ 
+body 
+{
+    margin: 0px; 
+}
+
+/*  Style the header */
+.StyleHeader /* flex container */ 
+{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 25px 0px; 
+} 
+
+.HeaderSearchBox 
+{
+    
+    border: 1px solid navy; 
+    border-radius: 50px;
+} 
+
+.HeaderRight 
+{
+    padding: 0px 10px; 
+} 
+
+header div span sub 
+{
+    font-size: 25px; 
+    padding-top: 100px;
+} 
+
+header div span sup 
+{
+    font-size: 15px; 
+    color: white; 
+    background-color: blue; 
+    padding: 2px;
+    margin: 5px; 
+    border-radius: 100%;
+} 
+
+.navigation 
+{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start;
+    padding: 15px;  
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray; 
+} 
+
+nav ul 
+{
+    list-style-type: none;
+}
+
+nav ul li 
+{
+    padding: 10px;
+} 
+
+nav ul li a 
+{
+    text-decoration: none; 
+    font-size: 20px; 
+} 
+
+.section1 
+{
+    display: flex; 
+    flex-direction: row; 
+    /* justify-content: space-evenly; */ 
+    margin-top:75px; 
+} 
+
+#section1block1 
+{
+    width: 50%;
+}
+
+.set1 
+{
+    display: flex; 
+    flex-direction: row; 
+
+    position: absolute; 
+    top: 160px; 
+    left: 80px; 
+
+     background-color: rgb(235, 235, 255); 
+
+     padding: 10px; 
+     border-radius: 10%; 
+
+     color: navy;
+}
+
+.set2 
+{
+    display: flex; 
+    flex-direction: row; 
+
+    position: absolute; 
+    top: 550px; 
+    left: 575px; 
+
+     background-color: rgb(235, 235, 255); 
+
+     padding: 10px; 
+     border-radius: 10%; 
+
+     color: navy;
+}
+
+.section2 
+{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 35px 130px; 
+    gap: 25px; 
+    background-color: rgb(235, 235, 255); 
+    margin-top: 10px;
+}
+
+.section2 > div 
+{
+    text-align: center;
+} 
+
+.section2 > div > span 
+{
+    font-size: 35px;
+} 
+
+.section3 
+{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 75px 130px; 
+    gap: 35px; 
+    margin-bottom: 75px; 
+} 
+
+.section3 > div 
+{
+    text-align: center; 
+    padding: 15px 15px; 
+    background-color: rgb(235, 235, 235); 
+    border-radius: 5%;
+} 
+
+.section3 > div > p 
+{
+    margin-bottom: 0px;
+} 
+
+.section4 
+{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    gap: 35px; 
+    padding: 0px 130px; 
+}
+
+.section4 > div 
+{
+    padding: 10px; 
+    background-color: rgb(235, 235, 255); 
+    border-radius: 5%;
+}
+
+.filters 
+{
+    padding: 10px 20px;
+    background-color: rgb(235, 235, 235); 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    margin: 5px; 
+    font-weight: bold; 
+} 
+
+.filterButtons 
+{
+    text-align: center; 
+    margin-top: 100px; 
+    margin-bottom: 35px; 
+}
+
+.AllItems 
+{
+    display: grid; 
+    grid-template-columns: auto auto auto auto;  
+    gap: 35px;
+    margin-left: 130px; 
+    margin-right: 130px; 
+} 
+
+.rowcolumns 
+{
+    width: 275px;
+    background-color: rgb(245, 245, 245); 
+    padding-bottom: 10px; 
+    border-radius: 10px; 
+}
+
+.SaleNew 
+{
+    position: relative; 
+    text-align: center;
+    /* background-color: rgb(235, 235, 255); */ 
+} 
+
+.SetSaleNew 
+{
+    position: absolute; 
+    top: 25px; 
+    left: 25px;  
+
+    font-weight: bold; 
+    color: white; 
+    padding: 3px 10px;
+    border-radius: 15px;  
+    background-color: #0a4db8;
+} 
+
+.SellingDetails 
+{
+    margin: 25px; 
+} 
+
+.SellingDetails > p 
+{
+    font-size: 1.2em;
+}
+
+.price 
+{
+    margin-bottom: 15px; 
+}
+
+.newprice 
+{
+    color: #0a4db8; 
+    font-weight: bold; 
+    font-size: 1.5em; 
+    text-decoration: none;
+    margin-right: 10px; 
+}
+
+.oldprice 
+{
+    color: rgb(155, 155, 155); 
+    padding-bottom: 10px; 
+} 
+
+.stars 
+{
+    font-size: 1.2em; 
+    margin-bottom: 15px; 
+} 
+
+.starpoints 
+{
+    font-size: 0.8em; 
+    color: rgb(155, 155, 155); 
+}
+
+.button 
+{
+    background-color: #0a4db8; 
+    color: white; 
+}
+
+.subscribe 
+{
+    background-color: white;
+    border: 1px solid blue; 
+    border-radius: 25px; 
+    padding: 15px 20px;
+} 
+
+.footer 
+{
+    display: flex; 
+    flex-direction: row; 
+    margin: 50px 130px; 
+    justify-content: flex-start;
+}
+
+.footeritem
+{
+    margin-right: 25px; 
+}
+
+.footeritem > p > a 
+{
+    text-decoration: none;
+}
+
+.iconstyle 
+{
+    padding: 5px; 
+    background-color: lightgray; 
+    border-radius: 25px;
+} 
+
+.playstore 
+{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    background-color: lightgray; 
+    color: black;
+}
